@@ -1,0 +1,100 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+    
+        double student=80.6;
+        System.out.println(lettergrade(student));
+     }
+     public static String lettergrade(double x){
+         if (x >=90.0)
+         {LetterA();
+             return "A"+ " ,you are a hardworking student and deserve thanks";
+         }else if(x >=80.0)
+         { LetterB();
+             return "B"+ " ,you are a good student";
+         }else if(x >=70.0)
+         {
+             LetterC();
+             return "C"+" ,you should give study importance";
+         }else if(x>=60.0)
+         {
+               LetterF();
+             return "F"+ " ,Never Tias,you can make up for it next time, provided you hav taim to study";
+         }else if(x>=0)
+         {
+             return "O"+ " ,it is impossible for this to happen";
+            
+            
+         }
+              return "E"+"rror";
+     }
+           public static void  LetterA()
+       {
+       System.out.println("           *            ");
+       System.out.println("         *   *            ");
+       System.out.println("        *     *           ");
+       System.out.println("       *********             ");
+       System.out.println("      *         *           ");
+       System.out.println("     *           *           ");
+       }
+            public static void  LetterB(){
+      System.out.println(" **********                   ");
+        System.out.println(" *         *                   ");
+        System.out.println(" *          *                  ");
+        System.out.println(" *        * *                ");
+        System.out.println(" ******** *            ");
+        System.out.println(" *          *               ");
+        System.out.println(" *          *               ");
+        System.out.println(" *         *                   ");
+        System.out.println(" **********                 ");
+}
+    
+    
+    
+     public static void  LetterC(){
+        System.out.println(" ***********                 ");
+        System.out.println(" **         *               ");
+        System.out.println(" *                            ");
+        System.out.println(" *                        ");
+        System.out.println(" *            ");
+        System.out.println(" *                         ");
+        System.out.println(" *                         ");
+        System.out.println(" **         *                  ");
+        System.out.println(" ***********                ");    
+}
+    
+    
+    
+     public static void  LetterF(){
+        System.out.println(" **********                   ");
+        System.out.println(" *                            ");
+        System.out.println(" *                            ");
+        System.out.println(" *                        ");
+        System.out.println(" **********            ");
+        System.out.println(" *                         ");
+        System.out.println(" *                         ");
+        System.out.println(" *                            ");
+        System.out.println(" *                 ")    ;    
+
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
