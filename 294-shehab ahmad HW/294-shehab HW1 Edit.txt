@@ -3,7 +3,7 @@ public class HelloWorld{
      public static void main(String []args){
         
     
-        double student=80.6;
+        double student=62.6;
         System.out.println(lettergrade(student));
      }
      public static String lettergrade(double x){
@@ -16,12 +16,27 @@ public class HelloWorld{
          }else if(x >=70.0)
          {
              LetterC();
+         
              return "C"+" ,you should give study importance";
-         }else if(x>=60.0)
+             
+         }else if (x>=60.0)
          {
+             
+             LetterD();
+             
+             return "D"+" ,Never Tias";
+         
+             
+             
+         } else if(x<=60.0)
+         
+                 {
                LetterF();
              return "F"+ " ,Never Tias,you can make up for it next time, provided you hav taim to study";
          }else if(x>=0)
+         
+         
+         
          {
              return "O"+ " ,it is impossible for this to happen";
             
@@ -42,7 +57,7 @@ public class HelloWorld{
       System.out.println(" **********                   ");
         System.out.println(" *         *                   ");
         System.out.println(" *          *                  ");
-        System.out.println(" *        * *                ");
+        System.out.println(" *          *                ");
         System.out.println(" ******** *            ");
         System.out.println(" *          *               ");
         System.out.println(" *          *               ");
@@ -63,6 +78,35 @@ public class HelloWorld{
         System.out.println(" **         *                  ");
         System.out.println(" ***********                ");    
 }
+    
+    
+     public static void  LetterD(){
+        System.out.println(" **********                 ");
+        System.out.println(" **         *               ");
+        System.out.println(" *            *                ");
+        System.out.println(" *             *           ");
+        System.out.println(" *             *");
+        System.out.println(" *             *            ");
+        System.out.println(" *            *             ");
+        System.out.println(" **         *                  ");
+        System.out.println(" **********               ");    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
